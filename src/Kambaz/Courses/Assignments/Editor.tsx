@@ -112,7 +112,7 @@ export default function AssignmentEditor() {
             <hr style={{ width: '100%', border: '1px solid black', margin: 0, position:'absolute'}}/>
             <div className="flex justify-end p-5">
               <b/>
-              <button style={{marginLeft:'30px'}} type="button"
+              <button style={{marginLeft:'400px'}} type="button"
                 id="wd-name">
                 Cancel
               </button>
