@@ -1,10 +1,22 @@
+import { Button, Col, Container, Form, InputGroup, Row } from "react-bootstrap";
+import { IoCalendarClearOutline } from "react-icons/io5";
+
 export default function AssignmentEditor() {
     return (
-        <div id="wd-assignments-editor">
-      <label htmlFor="wd-name">Assignment Name</label><br /><br />
-      <input id="wd-name" value="A1 - ENV + HTML" /><br /><br />
-      <textarea id="wd-description" cols={50} rows={10}>
-        The assignment is available online. 
+      <Container className=" mt-4"> 
+      <div id="wd-assignments-editor" >
+      
+      <Form.Group className="mb-3" controlId="wd-name"> 
+        <Form.Label htmlFor="wd-name">Assignment Name</Form.Label>
+        <div style={{ width: "100%"}}> 
+        <Form.Control id="wd-name" value="A1 - ENV + HTML" />
+        </div>
+      </Form.Group>
+      
+      {/* Assignment editor box */}
+      <Form.Group style={{width: "100%"}}>
+      < Form.Control className="mb-3" as="textarea" id="wd-description" rows={8} 
+              value="The assignment is available online. 
         
         Submit a link to the landing page of your web application running 
         on Netlify. 
@@ -15,116 +27,144 @@ export default function AssignmentEditor() {
         Link to the Kanbas application.
         Links to all relevant source code repositiories 
         
-        The Kanbas application should include a link to navigate back to the landing page.
-      </textarea>
-      <br />
-      <table>
-        <tr>
-          <td align="right" valign="top">
-            <label htmlFor="wd-points">Points</label>
-          </td>
-          <td>
-            <input id="wd-points" value={100} />
-          </td>
-        </tr>
-        <br />
-        <tr>
-          <td align="right" valign="top">
-            <label htmlFor="wd-group">Assignment Group</label>
-          </td>
-          <td>
-            <select id="wd-group">
-              <option value="ASSIGNMENTS">ASSIGNMENTS</option>
-            </select>
-          </td>
-        </tr>
-        <br />
-        <tr>
-          <td align="right" valign="top">
-            <label htmlFor="wd-display-grade-as">Display Grade as</label>
-          </td>
-          <td>
-            <select id="wd-display-grade-as">
-              <option value="Percentage">Percentage</option>
-            </select>
-          </td>
-        </tr>
-        <br />
-        <tr>
-          <td align="right" valign="top">
-            <label htmlFor="wd-submission-type">Submission Type</label>
-          </td>
-          <td>
-            <select id="wd-submission-type">
-              <option value="Online">Online</option>
-            </select>
-          </td>
-        </tr>
-        <br/>
-            <td>
-            <br/>
-              <label>Online Entry Options </label><br/>
+        The Kanbas application should include a link to navigate back to the landing page."/>
+  
+      </Form.Group>
 
-              <input type="checkbox" name="check-entry-options" id="wd-text-entry"/>
-              <label htmlFor="wd-text-entry">Text Entry</label><br/>
 
-              <input type="checkbox" name="check-entry-options" id="wd-website-url"/>
-              <label htmlFor="wd-website-url">Website URL</label><br/>
+      {/* Points Field */}
+      <Form.Group as={Row} className="mb-3 justify-content-end ">
+        <Form.Label column sm={3} className="text-end">
+          Points
+        </Form.Label>
+        <Col sm={7}>
+          <Form.Control type="text" value={100} />
+        </Col>
+      </Form.Group>
 
-              <input type="checkbox" name="check-entry-options" id="wd-media-recordings"/>
-              <label htmlFor="wd-media-recordings">Media Recordings</label><br/>
+      {/* Assignment Group Field */}
+      <Form.Group as={Row} className="mb-3 justify-content-end ">
+        <Form.Label column sm={3} className="text-end" >
+          Assignment Group
+        </Form.Label>
+        <Col sm={7}>
+          <Form.Select defaultValue="ASSIGNMENTS"> 
+            <option value="ASSIGNMENTS" > ASSIGNMENTS</option>
+          </Form.Select>
+        </Col>
+      </Form.Group>
 
-              <input type="checkbox" name="check-entry-options" id="wd-student-annotation"/>
-              <label htmlFor="wd-student-annotation">Student Annotation</label><br/>
+      {/* Grade Display */}
+      <Form.Group as={Row} className="mb-3 justify-content-end ">
+        <Form.Label column sm={3} className="text-end" >
+          Display Grade as
+        </Form.Label>
+        <Col sm={7}>
+          <Form.Select defaultValue="Percentage"> 
+            <option value="Percentage" > Percentage</option>
+          </Form.Select>
+        </Col>
+      </Form.Group>
 
-              <input type="checkbox" name="check-entry-options" id="wd-file-upload"/>
-              <label htmlFor="wd-file-upload">File Uploads</label><br/>  
-            </td>
-            <br/>
-            <tr>
-              <td align="right" >
-                <label style={{display: 'flex', alignContent: 'right', justifyContent:'right' }} 
-                htmlFor="wd-assign-to"> Assign Assign To</label>
-                <input id="wd-assign-to" value={"Everyone"}/>
-              </td> 
-            </tr>
-            <br/>
-            <td> 
-                <label style={{display: 'flex', textAlign: 'right', alignContent: 'right', alignItems: 'right'}} 
-                htmlFor="wd-due-date"> Due </label>
-                <input type="date"
-                value="2024-05-13"
-                id="wd-due-date"/><br/>
-            </td>
-            <tr>
-                <label 
-                htmlFor="wd-available-from"> Available From </label>
-                <input type="date"
-                value="2024-05-13"
-                id="wd-available-from"/>
-             
-                <label htmlFor="wd-available-until"> Available Until </label>
-                <input type="date"
-                value="2024-05-13"
-                id="wd-available-until"/><br/>
-            </tr><b/>
-            <tr> 
-            <hr style={{ width: '100%', border: '1px solid black', margin: 0, position:'absolute'}}/>
-            <div className="flex justify-end p-5">
-              <b/>
-              <button style={{marginLeft:'400px'}} type="button"
-                id="wd-name">
-                Cancel
-              </button>
-              &nbsp;
-              <button type="button"
-                id="wd-name">
-                Save
-              </button>
-            </div>
-            </tr>
-      </table>
+      {/* Submission type */}
+      
+      
+      <Form.Group as={Row} className="mb-3 justify-content-end">
+        <Form.Label column sm={3} className="text-end" >
+          Submission Type
+        </Form.Label>
+        <div  className="border rounded p-4 w-50" style={{width:"50vw",  height:"20vw"}}> 
+        <div > 
+          <Col sm={15}>
+            <Form.Select defaultValue="Online"> 
+              <option value="Online" > Online</option>
+            </Form.Select>
+          </Col>
+        </div>
+        <Form.Group className="mb-3 p-3">
+          <Form.Label><strong>Online Entry Options</strong></Form.Label>
+          <div className="d-flex flex-column p-3">
+            <Form.Check type="checkbox" label="Text Entry" />
+            <Form.Check type="checkbox" label="Website URL" />
+            <Form.Check type="checkbox" label="Media Recordings" />
+            <Form.Check type="checkbox" label="Student Annotation" />
+            <Form.Check type="checkbox" label="File Uploads" />
+          </div>
+          </Form.Group>
+        </div>
+      </Form.Group>
+      
+      {/* Assign portion */}
+      <Container as={Row} className="mb-3 justify-content-end">
+        <Form.Label column sm={3} className="text-end" >
+          Assign
+        </Form.Label>
+        <div  className="border rounded p-4 w-50" style={{width:"50vw",  height:"20vw"}}> 
+        <div >
+        <Form.Label><strong>Assign To</strong></Form.Label> 
+          <Col sm={15}>
+            <Form.Select defaultValue="Everyone"> 
+              <option value="Everyone" > Everyone</option>
+            </Form.Select>
+          </Col>
+        </div>
+        <Form.Group className="mb-3 p-3">
+          <Form.Label><strong>Due</strong></Form.Label>
+          <InputGroup>
+            <Form.Control defaultValue="May 13, 2024 11:59PM" type="date" id="wd-dob"/>
+              <InputGroup.Text>
+                <IoCalendarClearOutline size={16}/>
+              </InputGroup.Text>
+          </InputGroup>
+          <div className="d-flex gap-3 p-3">
+          <Row>
+            <Col md={6}>
+              <Form >
+                <Form.Group>
+                  <Form.Label>Available From</Form.Label>
+                  <InputGroup> 
+                  <Form.Control type="text" placeholder="May 13, 2024 11:59PM" />
+                  <InputGroup.Text>
+                    <IoCalendarClearOutline size={16}/>
+                  </InputGroup.Text>
+                  </InputGroup>
+                </Form.Group>
+              </Form>
+            </Col>
+
+            <Col md={6}>
+              <Form >
+                <Form.Group>
+                  <Form.Label>Available Until</Form.Label>
+                  <InputGroup> 
+                  <Form.Control type="date"  />
+                  <InputGroup.Text>
+                    <IoCalendarClearOutline size={16}/>
+                  </InputGroup.Text>
+                  </InputGroup>
+                </Form.Group>
+                
+              </Form>
+            </Col>
+          </Row>
+            
+          </div>
+          </Form.Group>
+        </div>
+      </Container>
+              
+      <hr style={{ border: '1px solid black'}}/> 
+      <Container>
+        <Row>
+          <Col fluid className="d-flex justify-content-end gap-2">
+          <Button variant="secondary"> Cancel </Button>
+          <Button variant="danger"> Save </Button>
+          </Col>
+        </Row>
+      </Container>
+            
     </div>
+    </Container>
 );}
 
   
