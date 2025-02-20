@@ -2,7 +2,7 @@ export default function Styles(){
     const colorBlack = {color: 'black'};
     const padding10px = {padding: '10px'};
     const bgBlue = {'backgroundColor': 'lightblue', 
-                    'color': 'black', ...padding10px};
+                     'color': 'black', ...padding10px};
     const bgRed = {'backgroundColor': 'lightcoral', 
                     ...colorBlack, 
                     ...padding10px};
@@ -12,7 +12,7 @@ export default function Styles(){
             <div style={{backgroundColor: 'lightyellow', ...colorBlack, ...padding10px}}>
                 Yellow background
             </div>
-            <div style={{backgroundColor: 'lightblue', ...colorBlack, ...padding10px}}>
+            <div style={bgBlue}>
                 Blue background
             </div>
             <div style={bgRed}>
