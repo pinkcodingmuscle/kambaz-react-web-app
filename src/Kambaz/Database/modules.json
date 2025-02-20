@@ -1,0 +1,932 @@
+[
+    {
+      "_id": "M101",
+      "name": "Introduction to Rocket Propulsion",
+      "description": "Basic principles of rocket propulsion and rocket engines.",
+      "course": "RS101",
+      "lessons": [
+        {
+          "_id": "L101",
+          "name": "History of Rocketry",
+          "description": "A brief history of rocketry and space exploration.",
+          "module": "M101"
+        },
+        {
+          "_id": "L102",
+          "name": "Rocket Propulsion Fundamentals",
+          "description": "Basic principles of rocket propulsion.",
+          "module": "M101"
+        },
+        {
+          "_id": "L103",
+          "name": "Rocket Engine Types",
+          "description": "Overview of different types of rocket engines.",
+          "module": "M101"
+        }
+      ]
+    },
+    {
+      "_id": "M102",
+      "name": "Fuel and Combustion",
+      "description": "Understanding rocket fuel, combustion processes, and efficiency.",
+      "course": "RS101",
+      "lessons": [
+        {
+          "_id": "L201",
+          "name": "Rocket Fuel",
+          "description": "Overview of different types of rocket fuels.",
+          "module": "M102"
+        },
+        {
+          "_id": "L202",
+          "name": "Combustion Processes",
+          "description": "Understanding combustion processes and efficiency.",
+          "module": "M102"
+        },
+        {
+          "_id": "L203",
+          "name": "Combustion Instability",
+          "description": "Understanding combustion instability and mitigation.",
+          "module": "M102"
+        }
+      ]
+    },
+    {
+      "_id": "M103",
+      "name": "Nozzle Design",
+      "description": "Principles of rocket nozzle design and performance optimization.",
+      "course": "RS101",
+      "lessons": [
+        {
+          "_id": "L301",
+          "name": "Nozzle Design",
+          "description": "Overview of different types of rocket nozzles.",
+          "module": "M103"
+        },
+        {
+          "_id": "L302",
+          "name": "Nozzle Performance",
+          "description": "Understanding nozzle performance and efficiency.",
+          "module": "M103"
+        },
+        {
+          "_id": "L303",
+          "name": "Nozzle Optimization",
+          "description": "Optimizing nozzle design for specific applications.",
+          "module": "M103"
+        }
+      ]
+    },
+    {
+      "_id": "M201",
+      "name": "Fundamentals of Aerodynamics",
+      "description": "Basic aerodynamic concepts and fluid dynamics principles.",
+      "course": "RS102"
+    },
+    {
+      "_id": "M202",
+      "name": "Subsonic and Supersonic Flow",
+      "description": "Understanding subsonic and supersonic aerodynamic behaviors.",
+      "course": "RS102"
+    },
+    {
+      "_id": "M203",
+      "name": "Aerodynamic Heating",
+      "description": "Study of aerodynamic heating and thermal protection systems.",
+      "course": "RS102"
+    },
+    {
+      "_id": "M301",
+      "name": "Spacecraft Structural Design",
+      "description": "Fundamentals of designing spacecraft structures and materials selection.",
+      "course": "RS103"
+    },
+    {
+      "_id": "M302",
+      "name": "Orbital Mechanics",
+      "description": "Understanding orbital dynamics and mission planning.",
+      "course": "RS103"
+    },
+    {
+      "_id": "M303",
+      "name": "Spacecraft Systems Engineering",
+      "description": "Overview of spacecraft systems and subsystems engineering.",
+      "course": "RS103"
+    },
+    {
+        "_id": "OC101",
+        "name": "Introduction to Organic Chemistry",
+        "description": "Basic principles and concepts of organic chemistry.",
+        "course": "OC101",
+        "lessons": [
+    {
+        "_id": "L101",
+        "name": "Introduction to Organic Chemistry",
+        "description": "Overview of organic chemistry and its importance.",
+        "module": "OC101"
+    },
+    {
+        "_id": "L102",
+        "name": "Structure and Bonding",
+        "description": "Understanding the structure and bonding in organic molecules.",
+        "module": "OC101"
+    },
+    {
+        "_id": "L103",
+        "name": "Functional Groups",
+        "description": "Introduction to different functional groups in organic chemistry.",
+        "module": "OC101"
+    }
+    ]
+    },
+        {
+          "_id": "OC102",
+          "name": "Hydrocarbons",
+          "description": "Study of alkanes, alkenes, alkynes, and aromatic hydrocarbons.",
+          "course": "OC101",
+          "lessons": [
+            {
+              "_id": "L201",
+              "name": "Alkanes",
+              "description": "Structure, properties, and reactions of alkanes.",
+              "module": "OC102"
+            },
+            {
+              "_id": "L202",
+              "name": "Alkenes",
+              "description": "Structure, properties, and reactions of alkenes.",
+              "module": "OC102"
+            },
+            {
+              "_id": "L203",
+              "name": "Alkynes",
+              "description": "Structure, properties, and reactions of alkynes.",
+              "module": "OC102"
+            },
+            {
+              "_id": "L204",
+              "name": "Aromatic Hydrocarbons",
+              "description": "Structure, properties, and reactions of aromatic hydrocarbons.",
+              "module": "OC102"
+            }
+          ]
+        },
+        {
+          "_id": "OC103",
+          "name": "Stereochemistry",
+          "description": "Study of the spatial arrangement of atoms in molecules.",
+          "course": "OC101",
+          "lessons": [
+            {
+              "_id": "L301",
+              "name": "Isomerism",
+              "description": "Introduction to different types of isomerism.",
+              "module": "OC103"
+            },
+            {
+              "_id": "L302",
+              "name": "Chirality",
+              "description": "Understanding chirality and its importance in organic chemistry.",
+              "module": "OC103"
+            },
+            {
+              "_id": "L303",
+              "name": "Optical Activity",
+              "description": "Study of optical activity and its measurement.",
+              "module": "OC103"
+            }
+          ]
+        },
+        {
+          "_id": "OC104",
+          "name": "Organic Reactions",
+          "description": "Overview of different types of organic reactions.",
+          "course": "OC101",
+          "lessons": [
+            {
+              "_id": "L401",
+              "name": "Substitution Reactions",
+              "description": "Mechanisms and examples of substitution reactions.",
+              "module": "OC104"
+            },
+            {
+              "_id": "L402",
+              "name": "Elimination Reactions",
+              "description": "Mechanisms and examples of elimination reactions.",
+              "module": "OC104"
+            },
+            {
+              "_id": "L403",
+              "name": "Addition Reactions",
+              "description": "Mechanisms and examples of addition reactions.",
+              "module": "OC104"
+            },
+            {
+              "_id": "L404",
+              "name": "Oxidation and Reduction Reactions",
+              "description": "Mechanisms and examples of oxidation and reduction reactions.",
+              "module": "OC104"
+            }
+          ]
+        },
+
+        {
+            "_id": "IN101M1",
+            "name": "Introduction to Inorganic Chemistry",
+            "description": "Overview of inorganic chemistry and its importance.",
+            "course": "OC101",
+            "lessons": [
+            {
+                "_id": "IN101L1",
+                "name": "Basic Concepts",
+                "description": "Introduction to basic concepts in inorganic chemistry."
+            },
+            {
+                "_id": "IN101L2",
+                "name": "Periodic Table",
+                "description": "Understanding the periodic table and periodic trends."
+            }
+            ]
+        },
+        {
+            "_id": "IN101M2",
+            "name": "Bonding Theories",
+            "description": "Study of different bonding theories in inorganic chemistry.",
+            "course": "IN101",
+            "lessons": [
+            {
+                "_id": "IN101L3",
+                "name": "Ionic Bonding",
+                "description": "Understanding ionic bonding and its properties."
+            },
+            {
+                "_id": "IN101L4",
+                "name": "Covalent Bonding",
+                "description": "Understanding covalent bonding and its properties."
+            },
+            {
+                "_id": "IN101L5",
+                "name": "Metallic Bonding",
+                "description": "Understanding metallic bonding and its properties."
+            }
+            ]
+        },
+        {
+            "_id": "IN101M3",
+            "name": "Coordination Chemistry",
+            "description": "Study of coordination compounds and their properties.",
+            "course": "IN101",
+            "lessons": [
+            {
+                "_id": "IN101L6",
+                "name": "Ligands and Coordination Number",
+                "description": "Understanding ligands and coordination number in coordination compounds."
+            },
+            {
+                "_id": "IN101L7",
+                "name": "Crystal Field Theory",
+                "description": "Introduction to crystal field theory and its applications."
+            }
+            ]
+        },
+        {
+            "_id": "IN101M4",
+            "name": "Bioinorganic Chemistry",
+            "description": "Study of the role of inorganic elements in biological systems.",
+            "course": "IN101",
+            "lessons": [
+            {
+                "_id": "IN101L8",
+                "name": "Metalloenzymes",
+                "description": "Understanding the role of metalloenzymes in biological systems."
+            },
+            {
+                "_id": "IN101L9",
+                "name": "Metal Ions in Medicine",
+                "description": "Study of the role of metal ions in medicine."
+            }
+            ]
+        },
+        {
+            "_id": "PC101",
+            "name": "Introduction to Physical Chemistry",
+            "description": "Basic principles and concepts of physical chemistry.",
+            "course": "PC101",
+            "lessons": [
+              {
+                "_id": "PC101L1",
+                "name": "Thermodynamics",
+                "description": "Introduction to the laws of thermodynamics and their applications."
+              },
+              {
+                "_id": "PC101L2",
+                "name": "Kinetics",
+                "description": "Study of reaction rates and the factors affecting them."
+              },
+              {
+                "_id": "PC101L3",
+                "name": "Quantum Chemistry",
+                "description": "Introduction to quantum mechanics and its applications in chemistry."
+              }
+            ]
+          },
+          {
+            "_id": "PC102",
+            "name": "Advanced Physical Chemistry",
+            "description": "Advanced topics in physical chemistry.",
+            "course": "PC101",
+            "lessons": [
+              {
+                "_id": "PC102L1",
+                "name": "Statistical Mechanics",
+                "description": "Introduction to statistical mechanics and its applications."
+              },
+              {
+                "_id": "PC102L2",
+                "name": "Spectroscopy",
+                "description": "Study of the interaction of light with matter."
+              },
+              {
+                "_id": "PC102L3",
+                "name": "Surface Chemistry",
+                "description": "Study of chemical processes at surfaces and interfaces."
+              }
+            ]
+          },
+            {
+                "_id": "PC103",
+                "name": "Chemical Thermodynamics",
+                "description": "Study of the laws of thermodynamics and their applications.",
+                "course": "PC101",
+                "lessons": [
+                {
+                    "_id": "PC103L1",
+                    "name": "First Law of Thermodynamics",
+                    "description": "Introduction to the first law of thermodynamics and its applications."
+                },
+                {
+                    "_id": "PC103L2",
+                    "name": "Second Law of Thermodynamics",
+                    "description": "Introduction to the second law of thermodynamics and its applications."
+                },
+                {
+                    "_id": "PC103L3",
+                    "name": "Third Law of Thermodynamics",
+                    "description": "Introduction to the third law of thermodynamics and its applications."
+                }
+                ]
+            },
+            {
+                "_id": "PC104",
+                "name": "Chemical Kinetics",
+                "description": "Study of reaction rates and the factors affecting them.",
+                "course": "PC101",
+                "lessons": [
+                {
+                    "_id": "PC104L1",
+                    "name": "Rate Laws",
+                    "description": "Introduction to rate laws and their applications."
+                },
+                {
+                    "_id": "PC104L2",
+                    "name": "Reaction Mechanisms",
+                    "description": "Study of reaction mechanisms and their determination."
+                },
+                {
+                    "_id": "PC104L3",
+                    "name": "Catalysis",
+                    "description": "Study of catalysis and its applications in chemistry."
+                }
+                ]
+            },
+            {
+                "_id": "ME101",
+                "name": "Introduction to Ancient Languages and Scripts of Middle-earth",
+                "description": "Study of the ancient languages and scripts used in Middle-earth.",
+                "course": "ME101",
+                "lessons": [
+                  {
+                    "_id": "ME101L1",
+                    "name": "Quenya",
+                    "description": "Introduction to the Quenya language and its script."
+                  },
+                  {
+                    "_id": "ME101L2",
+                    "name": "Sindarin",
+                    "description": "Introduction to the Sindarin language and its script."
+                  },
+                  {
+                    "_id": "ME101L3",
+                    "name": "Dwarvish",
+                    "description": "Introduction to the Dwarvish language and its script."
+                  }
+                ]
+              },
+              {
+                "_id": "ME102",
+                "name": "Advanced Ancient Languages and Scripts of Middle-earth",
+                "description": "Advanced study of the ancient languages and scripts used in Middle-earth.",
+                "course": "ME101",
+                "lessons": [
+                  {
+                    "_id": "ME102L1",
+                    "name": "Tengwar",
+                    "description": "Advanced study of the Tengwar script."
+                  },
+                  {
+                    "_id": "ME102L2",
+                    "name": "Cirth",
+                    "description": "Advanced study of the Cirth script."
+                  },
+                  {
+                    "_id": "ME102L3",
+                    "name": "Khuzdul",
+                    "description": "Advanced study of the Khuzdul language and its script."
+                  }
+                ]
+              },
+              {
+                "_id": "ME201",
+                "name": "Introduction to Inter-species Diplomacy in Middle-earth",
+                "description": "Study of the diplomatic relations between different species in Middle-earth.",
+                "course": "ME102",
+                "lessons": [
+                  {
+                    "_id": "ME201L1",
+                    "name": "Wizards and Elves",
+                    "description": "Study of the diplomatic relations between wizards and elves."
+                  },
+                  {
+                    "_id": "ME201L2",
+                    "name": "Elves and Men",
+                    "description": "Study of the diplomatic relations between elves and men."
+                  },
+                  {
+                    "_id": "ME201L3",
+                    "name": "Wizards and Men",
+                    "description": "Study of the diplomatic relations between wizards and men."
+                  }
+                ]
+              },
+              {
+                "_id": "ME202",
+                "name": "Advanced Inter-species Diplomacy in Middle-earth",
+                "description": "Advanced study of the diplomatic relations between different species in Middle-earth.",
+                "course": "ME102",
+                "lessons": [
+                  {
+                    "_id": "ME202L1",
+                    "name": "The Council of Elrond",
+                    "description": "Study of the Council of Elrond and its diplomatic significance."
+                  },
+                  {
+                    "_id": "ME202L2",
+                    "name": "The Last Alliance",
+                    "description": "Study of the Last Alliance of Elves and Men."
+                  },
+                  {
+                    "_id": "ME202L3",
+                    "name": "The White Council",
+                    "description": "Study of the White Council and its diplomatic efforts."
+                  }
+                ]
+              },
+              {
+                "_id": "ME301",
+                "name": "Introduction to Middle-earth Studies",
+                "description": "Overview of the history, cultures, and geography of Middle-earth.",
+                "course": "ME103",
+                "lessons": [
+                  {
+                    "_id": "ME301L1",
+                    "name": "History of Middle-earth",
+                    "description": "Introduction to the history of Middle-earth."
+                  },
+                  {
+                    "_id": "ME301L2",
+                    "name": "Cultures of Middle-earth",
+                    "description": "Study of the different cultures in Middle-earth."
+                  },
+                  {
+                    "_id": "ME301L3",
+                    "name": "Geography of Middle-earth",
+                    "description": "Overview of the geography of Middle-earth."
+                  }
+                ]
+              },
+              {
+                "_id": "ME302",
+                "name": "Advanced Middle-earth Studies",
+                "description": "Advanced study of the history, cultures, and geography of Middle-earth.",
+                "course": "ME103",
+                "lessons": [
+                  {
+                    "_id": "ME302L1",
+                    "name": "The First Age",
+                    "description": "Study of the events and cultures of the First Age."
+                  },
+                  {
+                    "_id": "ME302L2",
+                    "name": "The Second Age",
+                    "description": "Study of the events and cultures of the Second Age."
+                  },
+                  {
+                    "_id": "ME302L3",
+                    "name": "The Third Age",
+                    "description": "Study of the events and cultures of the Third Age."
+                  }
+                ]
+              },
+              {
+                "_id": "REACT101",
+                "name": "Introduction to ReactJS",
+                "description": "Basic principles and concepts of ReactJS.",
+                "course": "CS1234",
+                "lessons": [
+                  {
+                    "_id": "REACT101L1",
+                    "name": "Introduction to React",
+                    "description": "Overview of React and its features."
+                  },
+                  {
+                    "_id": "REACT101L2",
+                    "name": "Components and Props",
+                    "description": "Understanding components and props in React."
+                  },
+                  {
+                    "_id": "REACT101L3",
+                    "name": "State and Lifecycle",
+                    "description": "Managing state and lifecycle in React components."
+                  }
+                ]
+              },
+              {
+                "_id": "REACT102",
+                "name": "Advanced ReactJS",
+                "description": "Advanced topics in ReactJS.",
+                "course": "CS1234",
+                "lessons": [
+                  {
+                    "_id": "REACT102L1",
+                    "name": "Hooks",
+                    "description": "Introduction to React Hooks."
+                  },
+                  {
+                    "_id": "REACT102L2",
+                    "name": "Context API",
+                    "description": "Using the Context API for state management."
+                  },
+                  {
+                    "_id": "REACT102L3",
+                    "name": "React Router",
+                    "description": "Implementing routing in React applications."
+                  }
+                ]
+              },
+              {
+                "_id": "NODE101",
+                "name": "Introduction to NodeJS",
+                "description": "Basic principles and concepts of NodeJS.",
+                "course": "CS1235",
+                "lessons": [
+                  {
+                    "_id": "NODE101L1",
+                    "name": "Introduction to NodeJS",
+                    "description": "Overview of NodeJS and its features."
+                  },
+                  {
+                    "_id": "NODE101L2",
+                    "name": "Modules and Packages",
+                    "description": "Understanding modules and packages in NodeJS."
+                  },
+                  {
+                    "_id": "NODE101L3",
+                    "name": "File System",
+                    "description": "Working with the file system in NodeJS."
+                  }
+                ]
+              },
+              {
+                "_id": "NODE102",
+                "name": "Advanced NodeJS",
+                "description": "Advanced topics in NodeJS.",
+                "course": "CS1235",
+                "lessons": [
+                  {
+                    "_id": "NODE102L1",
+                    "name": "ExpressJS",
+                    "description": "Introduction to ExpressJS for building web applications."
+                  },
+                  {
+                    "_id": "NODE102L2",
+                    "name": "Asynchronous Programming",
+                    "description": "Understanding asynchronous programming in NodeJS."
+                  },
+                  {
+                    "_id": "NODE102L3",
+                    "name": "Database Integration",
+                    "description": "Integrating databases with NodeJS applications."
+                  }
+                ]
+        },
+        {
+            "_id": "DM101",
+            "name": "Introduction to Discrete Mathematics",
+            "description": "Basic principles and concepts of discrete mathematics.",
+            "course": "CS2001",
+            "lessons": [
+              {
+                "_id": "DM101L1",
+                "name": "Logic and Proofs",
+                "description": "Introduction to logic and proofs."
+              },
+              {
+                "_id": "DM101L2",
+                "name": "Set Theory",
+                "description": "Understanding set theory and its applications."
+              },
+              {
+                "_id": "DM101L3",
+                "name": "Combinatorics",
+                "description": "Introduction to combinatorics and counting principles."
+              }
+            ]
+          },
+          {
+            "_id": "DM102",
+            "name": "Advanced Discrete Mathematics",
+            "description": "Advanced topics in discrete mathematics.",
+            "course": "CS2001",
+            "lessons": [
+              {
+                "_id": "DM102L1",
+                "name": "Graph Theory",
+                "description": "Introduction to graph theory and its applications."
+              },
+              {
+                "_id": "DM102L2",
+                "name": "Number Theory",
+                "description": "Understanding number theory and its applications."
+              },
+              {
+                "_id": "DM102L3",
+                "name": "Discrete Probability",
+                "description": "Introduction to discrete probability and its applications."
+              }
+            ]
+          },
+          {
+            "_id": "DSA101",
+            "name": "Introduction to Data Structures and Algorithms",
+            "description": "Basic principles and concepts of data structures and algorithms.",
+            "course": "CS2002",
+            "lessons": [
+              {
+                "_id": "DSA101L1",
+                "name": "Arrays and Linked Lists",
+                "description": "Introduction to arrays and linked lists."
+              },
+              {
+                "_id": "DSA101L2",
+                "name": "Stacks and Queues",
+                "description": "Understanding stacks and queues."
+              },
+              {
+                "_id": "DSA101L3",
+                "name": "Trees and Graphs",
+                "description": "Introduction to trees and graphs."
+              }
+            ]
+          },
+          {
+            "_id": "DBMS101",
+            "name": "Introduction to Database Management Systems",
+            "description": "Basic principles and concepts of database management systems.",
+            "course": "CS2003",
+            "lessons": [
+              {
+                "_id": "DBMS101L1",
+                "name": "Database Concepts",
+                "description": "Introduction to databases and database management systems."
+              },
+              {
+                "_id": "DBMS101L2",
+                "name": "Relational Model",
+                "description": "Understanding the relational model and relational databases."
+              },
+              {
+                "_id": "DBMS101L3",
+                "name": "SQL",
+                "description": "Introduction to SQL and database querying."
+              }
+            ]
+          },
+          {
+            "_id": "DBMS102",
+            "name": "Advanced Database Management Systems",
+            "description": "Advanced topics in database management systems.",
+            "course": "CS2003",
+            "lessons": [
+              {
+                "_id": "DBMS102L1",
+                "name": "Normalization",
+                "description": "Understanding normalization and database design."
+              },
+              {
+                "_id": "DBMS102L2",
+                "name": "Transactions",
+                "description": "Introduction to transactions and concurrency control."
+              },
+              {
+                "_id": "DBMS102L3",
+                "name": "NoSQL Databases",
+                "description": "Overview of NoSQL databases and their applications."
+              }
+            ]
+          },
+          {
+            "_id": "OS101",
+            "name": "Introduction to Operating Systems",
+            "description": "Basic principles and concepts of operating systems.",
+            "course": "CS2004",
+            "lessons": [
+              {
+                "_id": "OS101L1",
+                "name": "Operating System Concepts",
+                "description": "Introduction to operating systems and their functions."
+              },
+              {
+                "_id": "OS101L2",
+                "name": "Process Management",
+                "description": "Understanding process management and scheduling."
+              },
+              {
+                "_id": "OS101L3",
+                "name": "Memory Management",
+                "description": "Introduction to memory management and virtual memory."
+              }
+            ]
+          },
+          {
+            "_id": "OS102",
+            "name": "Advanced Operating Systems",
+            "description": "Advanced topics in operating systems.",
+            "course": "CS2004",
+            "lessons": [
+              {
+                "_id": "OS102L1",
+                "name": "File Systems",
+                "description": "Understanding file systems and storage management."
+              },
+              {
+                "_id": "OS102L2",
+                "name": "Security",
+                "description": "Introduction to operating system security."
+              },
+              {
+                "_id": "OS102L3",
+                "name": "Distributed Systems",
+                "description": "Overview of distributed systems and their applications."
+              }
+            ]
+          },
+          {
+            "_id": "SE101",
+            "name": "Introduction to Software Engineering",
+            "description": "Basic principles and concepts of software engineering.",
+            "course": "CS2005",
+            "lessons": [
+              {
+                "_id": "SE101L1",
+                "name": "Software Development Life Cycle",
+                "description": "Introduction to the software development life cycle."
+              },
+              {
+                "_id": "SE101L2",
+                "name": "Requirements Engineering",
+                "description": "Understanding requirements engineering and analysis."
+              },
+              {
+                "_id": "SE101L3",
+                "name": "Software Design",
+                "description": "Introduction to software design and architecture."
+              }
+            ]
+          },
+          {
+            "_id": "SE102",
+            "name": "Advanced Software Engineering",
+            "description": "Advanced topics in software engineering.",
+            "course": "CS2005",
+            "lessons": [
+              {
+                "_id": "SE102L1",
+                "name": "Software Testing",
+                "description": "Understanding software testing and quality assurance."
+              },
+              {
+                "_id": "SE102L2",
+                "name": "Agile Methodologies",
+                "description": "Introduction to agile methodologies and practices."
+              },
+              {
+                "_id": "SE102L3",
+                "name": "DevOps",
+                "description": "Overview of DevOps practices and tools."
+              }
+            ]
+          },
+          {
+            "_id": "CN101",
+            "name": "Introduction to Computer Networks",
+            "description": "Basic principles and concepts of computer networks.",
+            "course": "CS2006",
+            "lessons": [
+              {
+                "_id": "CN101L1",
+                "name": "Network Fundamentals",
+                "description": "Introduction to computer networks and their components."
+              },
+              {
+                "_id": "CN101L2",
+                "name": "OSI Model",
+                "description": "Understanding the OSI model and its layers."
+              },
+              {
+                "_id": "CN101L3",
+                "name": "TCP/IP",
+                "description": "Introduction to the TCP/IP protocol suite."
+              }
+            ]
+          },
+          {
+            "_id": "CN102",
+            "name": "Advanced Computer Networks",
+            "description": "Advanced topics in computer networks.",
+            "course": "CS2006",
+            "lessons": [
+              {
+                "_id": "CN102L1",
+                "name": "Network Security",
+                "description": "Understanding network security and its importance."
+              },
+              {
+                "_id": "CN102L2",
+                "name": "Wireless Networks",
+                "description": "Introduction to wireless networks and their technologies."
+              },
+              {
+                "_id": "CN102L3",
+                "name": "Network Management",
+                "description": "Overview of network management and monitoring."
+              }
+            ]
+          },
+          {
+            "_id": "CS101",
+            "name": "Introduction to Cybersecurity",
+            "description": "Basic principles and concepts of cybersecurity.",
+            "course": "CS2007",
+            "lessons": [
+              {
+                "_id": "CS101L1",
+                "name": "Cybersecurity Fundamentals",
+                "description": "Introduction to cybersecurity and its importance."
+              },
+              {
+                "_id": "CS101L2",
+                "name": "Threats and Vulnerabilities",
+                "description": "Understanding threats and vulnerabilities in cybersecurity."
+              },
+              {
+                "_id": "CS101L3",
+                "name": "Security Policies",
+                "description": "Introduction to security policies and best practices."
+              }
+            ]
+          },
+          {
+            "_id": "CS102",
+            "name": "Advanced Cybersecurity",
+            "description": "Advanced topics in cybersecurity.",
+            "course": "CS2007",
+            "lessons": [
+              {
+                "_id": "CS102L1",
+                "name": "Cryptography",
+                "description": "Understanding cryptography and its applications."
+              },
+              {
+                "_id": "CS102L2",
+                "name": "Network Security",
+                "description": "Introduction to network security and its importance."
+              },
+              {
+                "_id": "CS102L3",
+                "name": "Incident Response",
+                "description": "Overview of incident response and management."
+              }
+            ]
+          }
+
+  ]

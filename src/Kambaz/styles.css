@@ -27,3 +27,6 @@ body * {  font-family: Arial, Helvetica, sans-serif;  }
 border-left: 3px solid green !important;
 }
   
+.active-border {
+  border: 2px solid black;
+}

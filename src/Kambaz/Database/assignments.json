@@ -1,0 +1,74 @@
+[
+    { 
+        "_id": "A101", 
+        "title": "Propulsion Assignment", 
+        "course": "RS101", 
+        "description": "Design a propulsion system for a spacecraft. Your design should include detailed calculations for thrust, specific impulse, and fuel efficiency. Additionally, provide a comprehensive analysis of the materials and technologies used in your propulsion system. Deliverables: A detailed report with calculations, diagrams, and analysis. Submission: Upload the report as a PDF file to the course's assignment portal." 
+    },
+    { 
+        "_id": "A102", 
+        "title": "Combustion Analysis", 
+        "course": "RS101", 
+        "description": "Analyze the combustion process in a rocket engine. This analysis should cover the chemical reactions involved, the energy released, and the efficiency of the combustion process. Include diagrams and simulations to support your analysis. Deliverables: A detailed report with analysis, diagrams, and simulation results. Submission: Upload the report as a PDF file to the course's assignment portal." 
+    },
+    { 
+        "_id": "A103", 
+        "title": "Nozzle Design Project", 
+        "course": "RS101", 
+        "description": "Design a nozzle for a rocket engine. Your design should optimize for maximum thrust and efficiency. Provide detailed schematics and calculations, and discuss the materials and manufacturing processes used in your design. Deliverables: A detailed report with schematics, calculations, and analysis. Submission: Upload the report as a PDF file to the course's assignment portal." 
+    },
+    { 
+        "_id": "A201", 
+        "title": "Aerodynamics Quiz", 
+        "course": "RS102", 
+        "description": "Take a quiz on aerodynamics. The quiz will cover topics such as airflow, lift, drag, and the principles of flight. Be prepared to answer questions on both theoretical concepts and practical applications. Deliverables: Completed quiz. Submission: Complete the quiz online through the course's quiz portal." 
+    },
+    { 
+        "_id": "A202", 
+        "title": "Flow Analysis", 
+        "course": "RS102", 
+        "description": "Analyze the flow of air around an aircraft. Your analysis should include both subsonic and supersonic flow regimes. Use computational fluid dynamics (CFD) software to simulate the airflow and provide detailed reports on the pressure distribution, lift, and drag forces. Deliverables: A detailed report with analysis, diagrams, and simulation results. Submission: Upload the report as a PDF file to the course's assignment portal." 
+    },
+    { 
+        "_id": "A203", 
+        "title": "Heating Analysis", 
+        "course": "RS102", 
+        "description": "Analyze the heating of an aircraft during re-entry. This analysis should include the thermal loads experienced by the aircraft, the heat shield design, and the materials used to protect the aircraft from extreme temperatures. Provide detailed calculations and simulations to support your analysis. Deliverables: A detailed report with analysis, calculations, and simulation results. Submission: Upload the report as a PDF file to the course's assignment portal." 
+    },
+    { 
+        "_id": "A301", 
+        "title": "Structural Design Task", 
+        "course": "RS103", 
+        "description": "Design the structure of a spacecraft. Your design should consider factors such as weight, strength, and durability. Provide detailed schematics and calculations, and discuss the materials and manufacturing processes used in your design. Include an analysis of the structural integrity under various load conditions. Deliverables: A detailed report with schematics, calculations, and analysis. Submission: Upload the report as a PDF file to the course's assignment portal." 
+    },
+    { 
+        "_id": "A302", 
+        "title": "Orbital Calculations", 
+        "course": "RS103", 
+        "description": "Calculate the orbital parameters of a spacecraft. This assignment will require you to determine the spacecraft's trajectory, velocity, and position at various points in its orbit. Provide detailed calculations and discuss the methods used to achieve accurate results. Deliverables: A detailed report with calculations and analysis. Submission: Upload the report as a PDF file to the course's assignment portal." 
+    },
+    { 
+        "_id": "A303", 
+        "title": "Systems Engineering Exam", 
+        "course": "RS103", 
+        "description": "Take an exam on systems engineering. The exam will cover topics such as system design, integration, testing, and project management. Be prepared to answer questions on both theoretical concepts and practical applications. Deliverables: Completed exam. Submission: Complete the exam online through the course's exam portal." 
+    },
+    { 
+        "_id": "A301", 
+        "title": "Organic Chemistry Basics Quiz", 
+        "course": "OC101", 
+        "description": "Take a quiz on the basics of organic chemistry. The quiz will cover topics such as the structure and bonding of organic molecules, functional groups, and basic reaction mechanisms. Be prepared to answer questions on both theoretical concepts and practical applications. Deliverables: Completed quiz. Submission: Complete the quiz online through the course's quiz portal." 
+    },
+    { 
+        "_id": "A302", 
+        "title": "Structure and Bonding Assignment", 
+        "course": "OC101", 
+        "description": "Complete an assignment on the structure and bonding of organic molecules. This assignment will require you to analyze the molecular structure, predict the bonding patterns, and discuss the properties of various organic compounds. Provide detailed explanations and diagrams to support your analysis. Deliverables: A detailed report with analysis and diagrams. Submission: Upload the report as a PDF file to the course's assignment portal." 
+    },
+    { 
+        "_id": "A303", 
+        "title": "Overview of Organic Chemistry Exam", 
+        "course": "OC101", 
+        "description": "Take an exam on the overview of organic chemistry. The exam will cover topics such as the structure and bonding of organic molecules, functional groups, reaction mechanisms, and the properties of organic compounds. Be prepared to answer questions on both theoretical concepts and practical applications. Deliverables: Completed exam. Submission: Complete the exam online through the course's exam portal." 
+    }
+]

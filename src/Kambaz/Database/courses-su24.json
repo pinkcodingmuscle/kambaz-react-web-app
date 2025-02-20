@@ -1,0 +1,195 @@
+[
+  {
+      "_id": "RS101",
+      "name": "Rocket Propulsion",
+      "number": "RS4550",
+      "startDate": "2023-01-10",
+      "endDate": "2023-05-15",
+      "department": "D123",
+      "credits": 4,
+      "description": "This course provides an in-depth study of the fundamentals of rocket propulsion, covering topics such as propulsion theory, engine types, fuel chemistry, and the practical applications of rocket technology. Designed for students with a strong background in physics and engineering, the course includes both theoretical instruction and hands-on laboratory work"
+  },
+  {
+      "_id": "RS102",
+      "name": "Aerodynamics",
+      "number": "RS4560",
+      "startDate": "2023-01-10",
+      "endDate": "2023-05-15",
+      "department": "D123",
+      "credits": 3,
+      "description": "This course offers a comprehensive exploration of aerodynamics, focusing on the principles and applications of airflow and its effects on flying objects. Topics include fluid dynamics, airfoil design, lift and drag forces, and the aerodynamic considerations in aircraft design. The course blends theoretical learning with practical applications, suitable for students pursuing a career in aeronautics or astronautics engineering."
+  },
+  {
+      "_id": "RS103",
+      "name": "Spacecraft Design",
+      "number": "RS4570",
+      "startDate": "2023-01-10",
+      "endDate": "2023-05-15",
+      "department": "D123",
+      "credits": 4,
+      "description": "This course delves into the principles and practices of spacecraft design, offering students a detailed understanding of the engineering and technology behind spacecraft systems. Key topics include spacecraft structure, propulsion, power systems, thermal control, and payload integration. Emphasizing both theoretical concepts and practical skills, the course prepares students for careers in the space industry, with a focus on innovative design and problem-solving in the context of current and future space missions"
+  },
+  {
+      "_id": "OC101",
+      "name": "Organic Chemistry",
+      "number": "CH1230",
+      "startDate": "2023-01-10",
+      "endDate": "2023-05-15",
+      "department": "D134",
+      "credits": 3,
+      "description": "Organic Chemistry is an in-depth course that explores the structure, properties, composition, and reactions of organic compounds and materials. The course covers various topics including hydrocarbons, functional groups, stereochemistry, and organic synthesis techniques. Students will learn about the mechanisms of organic reactions, spectroscopic methods for structure determination, and the role of organic chemistry in biological systems. Emphasis is placed on problem-solving and laboratory skills, preparing students for advanced studies in chemistry, medicine, and related fields."
+  },
+  {
+      "_id": "IN101",
+      "name": "Inorganic Chemistry",
+      "number": "CH1240",
+      "startDate": "2023-01-10",
+      "endDate": "2023-05-15",
+      "department": "D134",
+      "credits": 3,
+      "description": "Inorganic Chemistry focuses on the properties, structures, and behaviors of inorganic and organometallic compounds. This course covers a range of topics including coordination chemistry, metal complexes, bonding theories, symmetry, and crystal field theory. Students will also explore the role of inorganic chemistry in real-world applications such as catalysis, materials science, and bioinorganic processes. Laboratory work emphasizes synthesis and analysis of inorganic compounds, fostering a deeper understanding of theoretical concepts."
+  },
+  {
+      "_id": "PC101",
+      "name": "Physical Chemistry",
+      "number": "CH1250",
+      "startDate": "2023-01-10",
+      "endDate": "2023-05-15",
+      "department": "D134",
+      "credits": 3,
+      "description": "Physical Chemistry merges the principles of physics and chemistry to understand the physical properties of molecules, the forces that act upon them, and the chemical reactions they undergo. Key topics include thermodynamics, kinetics, quantum mechanics, and spectroscopy. The course provides a comprehensive understanding of molecular behavior, reaction dynamics, and the application of mathematical methods in solving chemical problems. Labs focus on experimental techniques and data analysis, equipping students with skills necessary for research and advanced study in chemistry and related fields."
+  },
+  {
+      "_id": "ME101",
+      "name": "Ancient Languages and Scripts of Middle-earth",
+      "number": "LL101",
+      "startDate": "2023-01-10",
+      "endDate": "2023-05-15",
+      "department": "Languages",
+      "credits": 3,
+      "description": "This course offers an exploration of the ancient languages and scripts found throughout Middle-earth, including Elvish (Sindarin and Quenya), Dwarvish (Khuzdul), and the Black Speech of Mordor. Students will learn the historical and cultural contexts of these languages, their linguistic structures, and their usage in various inscriptions and texts. Emphasis is on understanding the philological aspects and the role of language in shaping Middle-earth's history and lore.",
+      "author": "654f9ec2ea7ead465908d1e3"
+  },
+  {
+      "_id": "ME102",
+      "name": "Wizards, Elves, and Men: Inter-species Diplomacy in Middle-earth",
+      "number": "RS108",
+      "startDate": "2023-01-10",
+      "endDate": "2023-05-15",
+      "department": "Political Studies",
+      "credits": 4,
+      "description": "This course explores the complex relationships and diplomatic interactions among the different races of Middle-earth: Elves, Men, Dwarves, and Wizards. Topics include the study of historical alliances, conflicts, and the role of leadership and wisdom in maintaining peace. Students will engage in discussions and case studies on key events in Middle-earth's history, such as the Council of Elrond and the War of the Ring, to understand the principles of diplomacy and conflict resolution in a multi-species context.",
+      "author": "654f9ec2ea7ead465908d1e3"
+  },
+  {
+      "_id": "ME103",
+      "name": "Introduction to Middle-earth Studies",
+      "number": "RS109",
+      "startDate": "2023-01-10",
+      "endDate": "2023-05-15",
+      "department": "Literature",
+      "credits": 3,
+      "description": "This course serves as an introduction to the rich and diverse world of Middle-earth, created by J.R.R. Tolkien. Students will explore the history, geography, cultures, and languages of Middle-earth, as well as the major themes and characters in Tolkien's works. Through close reading of selected texts and multimedia resources, students will gain a deeper understanding of the legendarium and its enduring impact on literature and popular culture.",
+      "author": "654f9ec2ea7ead465908d1e3"
+  },
+  {
+      "_id": "CS1234",
+      "name": "React JS",
+      "number": "CS100",
+      "startDate": "2023-01-10",
+      "endDate": "2023-05-15",
+      "department": "Computer Science",
+      "credits": 4,
+      "description": "This comprehensive React JS course will equip you with the skills to design and develop dynamic web applications using React's component-based architecture. Learn core concepts like JSX, state management, props, and the virtual DOM, while exploring advanced features like React Hooks and routing. You'll build practical projects to solidify your understanding and gain confidence in creating efficient and user-friendly web interfaces.",
+      "author": "654f9ec2ea7ead465908d1e3"
+  },
+  {
+      "_id": "CS1235",
+      "name": "Node JS",
+      "number": "CS101",
+      "startDate": "2023-01-10",
+      "endDate": "2023-05-15",
+      "department": "Computer Science",
+      "credits": 4,
+      "description": "This comprehensive Node JS course will equip you with the skills to design and develop dynamic web applications using Node's component-based architecture. Learn core concepts like JSX, state management, props, and the virtual DOM, while exploring advanced features like React Hooks and routing. You'll build practical projects to solidify your understanding and gain confidence in creating efficient and user-friendly web interfaces.",
+      "author": "654f9ec2ea7ead465908d1e3"
+  },
+  {
+      "_id": "CS2001",
+      "name": "Discrete Mathematics",
+      "number": "CS200",
+      "startDate": "2023-01-10",
+      "endDate": "2023-05-15",
+      "department": "Computer Science",
+      "credits": 4,
+      "description": "This course provides a comprehensive introduction to discrete mathematics, a foundational subject for computer science. Topics include logic and proofs, set theory, combinatorics, graph theory, and discrete probability. Students will learn to apply mathematical reasoning and problem-solving techniques to analyze and solve problems in computer science. The course emphasizes the development of rigorous thinking and the ability to construct and understand mathematical arguments.",
+      "author": "654f9ec2ea7ead465908d1e3"
+    },
+    {
+      "_id": "CS2002",
+      "name": "Data Structures and Algorithms",
+      "number": "CS201",
+      "startDate": "2023-01-10",
+      "endDate": "2023-05-15",
+      "department": "Computer Science",
+      "credits": 4,
+      "description": "This course covers the fundamental concepts of data structures and algorithms, essential for building efficient and scalable software systems. Topics include arrays, linked lists, stacks, queues, trees, graphs, sorting algorithms, and searching algorithms. Students will learn to analyze the time and space complexity of algorithms, implement data structures in code, and solve algorithmic problems. The course includes hands-on programming assignments to reinforce learning and develop practical skills.",
+      "author": "654f9ec2ea7ead465908d1e3"
+    },
+    {
+      "_id": "CS2003",
+      "name": "Database Management Systems",
+      "number": "CS202",
+      "startDate": "2023-01-10",
+      "endDate": "2023-05-15",
+      "department": "Computer Science",
+      "credits": 4,
+      "description": "This course introduces the principles and practices of database management systems (DBMS), focusing on the design, implementation, and optimization of relational databases. Topics include data modeling, normalization, SQL queries, indexing, transactions, and database security. Students will gain hands-on experience with popular database systems and tools, learning to design and query databases effectively. The course prepares students for careers in database administration, data analysis, and software development.",
+      "author": "654f9ec2ea7ead465908d1e3"
+      },
+      {
+      "_id": "CS2004",
+      "name": "Operating Systems",
+      "number": "CS203",
+      "startDate": "2023-01-10",
+      "endDate": "2023-05-15",
+      "department": "Computer Science",
+      "credits": 4,
+      "description": "This course explores the fundamental concepts and principles of operating systems, the software that manages computer hardware and provides a platform for running applications. Topics include process management, memory management, file systems, device management, and security. Students will learn about the design and implementation of operating systems, as well as the challenges and trade-offs involved in system performance and resource management. The course includes hands-on projects to reinforce theoretical concepts and develop practical skills.",
+      "author": "654f9ec2ea7ead465908d1e3"
+      },
+      {
+      "_id": "CS2005",
+      "name": "Software Engineering",
+      "number": "CS204",
+      "startDate": "2023-01-10",
+      "endDate": "2023-05-15",
+      "department": "Computer Science",
+      "credits": 4,
+      "description": "This course provides a comprehensive introduction to software engineering, covering the principles, methodologies, and best practices for developing high-quality software systems. Topics include software development life cycle, requirements engineering, software design, testing, and project management. Students will learn to apply software engineering principles to real-world projects, working in teams to design, implement, and test software solutions. The course emphasizes the development of professional skills and the ability to deliver software products that meet user needs and quality standards.",
+      "author": "654f9ec2ea7ead465908d1e3"
+      },
+      {
+      "_id": "CS2006",
+      "name": "Computer Networks",
+      "number": "CS205",
+      "startDate": "2023-01-10",
+      "endDate": "2023-05-15",
+      "department": "Computer Science",
+      "credits": 4,
+      "description": "This course provides a comprehensive overview of computer networks, the infrastructure that enables communication and data exchange between devices. Topics include network architecture, protocols, routing, switching, security, and wireless networks. Students will learn about the design and operation of computer networks, as well as the technologies and standards that govern network communication. The course includes hands-on labs and projects to reinforce theoretical concepts and develop practical skills.",
+      "author": "654f9ec2ea7ead465908d1e3"
+      },
+      {
+      "_id": "CS2007",
+      "name": "Cybersecurity",
+      "number": "CS206",
+      "startDate": "2023-01-10",
+      "endDate": "2023-05-15",
+      "department": "Computer Science",
+      "credits": 4,
+      "description": "This course provides a comprehensive introduction to cybersecurity, focusing on the principles, technologies, and practices for protecting computer systems and networks from cyber threats. Topics include network security, cryptography, secure coding, penetration testing, incident response, and security policies. Students will learn to assess and mitigate security risks, implement security measures, and respond to security incidents.",
+      "author": "654f9ec2ea7ead465908d1e3"
+      }
+      
+]
