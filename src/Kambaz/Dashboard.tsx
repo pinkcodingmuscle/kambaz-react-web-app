@@ -22,7 +22,7 @@ export default function Dashboard() {
   const courses = useSelector((state: any) => state.coursesReducer?.courses as Course[] || []);
   const { currentUser } = useSelector((state: any) => state.accountReducer);
   const isAuthorized = ["ADMIN", "TA", "FACULTY"].includes(currentUser?.role);
-  const enrollments = useSelector((state: any) => state.enrollmentReducer.enrollments);
+  //const enrollments = useSelector((state: any) => state.enrollmentReducer.enrollments);
   const [Enrollments, setShowAllCourses] = useState(false);
   const toggleEnrollmentView = () => {
     setShowAllCourses(!Enrollments);
