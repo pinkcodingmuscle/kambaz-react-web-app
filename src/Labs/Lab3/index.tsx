@@ -1,4 +1,4 @@
-import { Container } from "react-bootstrap";
+import { Container, ListGroup } from "react-bootstrap";
 import VariablesAndConstants from "./VariableAndConstants";
 import VariableTypes from "./VariableTypes";
 import BooleanVariable from "./BooleanVariables";
@@ -28,10 +28,12 @@ import Add from "./Add";
 import Square from "./Square";
 import Highlight from "./Highlight";
 import PathParameters from "./PathParameters";
+import { useSelector } from "react-redux";
 
 
 
 export default function Lab3() {
+  const {todos} = useSelector((state: any) => state.todosReducer);
   console.log("Hello World!");
   return (
     <Container style={{padding:"2px", margin:"20px", border:"3px", textAlign:"left"}}> 
@@ -72,7 +74,15 @@ export default function Lab3() {
           vel nihil repellat nemo explicabo excepturi consectetur. 
           Modi omnis minus sequi maiores, provident voluptates.
         </Highlight><hr />
-        <PathParameters/>
+        <PathParameters/><hr />
+        <ListGroup>
+          {todos.map((todo: any) => (
+            < ListGroup.Item key={todo.id}>
+              {todo.title}
+            </ListGroup.Item>
+          ))}
+        </ListGroup>
+        <hr/>
       </div>
     </Container>
   );}

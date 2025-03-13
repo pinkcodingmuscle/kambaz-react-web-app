@@ -1,9 +1,20 @@
 import { IoEllipsisVertical } from "react-icons/io5";
 import { BsPlusLg } from "react-icons/bs";
-// import GreenCheckmark from "./GreenCheckmark";
-export default function AssignmentControlButtons() {
+//import { deleteAssignment } from "./reducer";
+
+interface AssignmentControlButtonsProps {
+  assignmentId: string;
+  deleteAssignment: (id: string) => void;
+  editAssignment: (id: string) => void;
+}
+
+export default function AssignmentControlButtons({ assignmentId, deleteAssignment, editAssignment }: AssignmentControlButtonsProps) {
   return (
     <div className="float-end">
       <BsPlusLg />
       <IoEllipsisVertical className="fs-4" />
-    </div> );}
+      <button onClick={() => deleteAssignment(assignmentId)}>Delete</button>
+      <button onClick={() => editAssignment(assignmentId)}>Edit</button>
+    </div>
+  );
+}
